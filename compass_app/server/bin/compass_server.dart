@@ -4,12 +4,12 @@
 
 import 'dart:io';
 
-import 'package:compass_app/middleware/auth.dart';
-import 'package:compass_app/routes/booking.dart';
-import 'package:compass_app/routes/continent.dart';
-import 'package:compass_app/routes/destination.dart';
-import 'package:compass_app/routes/login.dart';
-import 'package:compass_app/routes/user.dart';
+import 'package:compass_server/middleware/auth.dart';
+import 'package:compass_server/routes/booking.dart';
+import 'package:compass_server/routes/continent.dart';
+import 'package:compass_server/routes/destination.dart';
+import 'package:compass_server/routes/login.dart';
+import 'package:compass_server/routes/user.dart';
 import 'package:shelf/shelf.dart';
 import 'package:shelf/shelf_io.dart';
 import 'package:shelf_router/shelf_router.dart';
